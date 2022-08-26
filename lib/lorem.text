@@ -1,0 +1,60 @@
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae eveniet ea laudantium mollitia illo sunt enim. Excepturi eum perspiciatis hic dolores natus. 
+Dolores quidem dolor amet tempore aliquid, nam consequuntur odit adipisci, aspernatur repudiandae vero suscipit ipsa non facilis nihil ipsum quibusdam praesentium officiis dolore. 
+Quos eum ea quidem fuga dicta culpa repellat sapiente aliquid quo libero, tempora esse? Porro facilis dicta repellat maxime obcaecati dolorem. Neque harum illum quod, quia rerum ad exercitationem voluptatibus quo nisi tenetur commodi esse porro facere unde deleniti. 
+Deleniti cum vitae sunt totam laboriosam, id iure earum consectetur, nulla alias voluptate fugit non quia ducimus. Molestiae cumque sed ut autem voluptate corrupti fuga nostrum in quibusdam nam. 
+Accusantium veritatis, corporis blanditiis ut sit recusandae neque quae repellendus sapiente in quo dolor, aliquid magni, delectus doloremque! Eveniet sunt ullam nemo odio consequuntur quasi quo aut optio at deserunt similique repellendus voluptatibus, reiciendis ducimus, sequi doloribus cupiditate. 
+Voluptas corporis illo modiest adipisci officia, non provident nostrum maiores. 
+Quibusdam amet fuga vel ipsa laboriosam ullam harum soluta nemo quis, officia nisi voluptates neque, quo veniam, quasi id dolore. 
+Facilis possimus ipsum ipsa vitae! Repellendus facilis, recusandae libero saepe similique esse deserunt, error aliquam suscipit optio temporibus, eius rerum sunt minima commodi ea deleniti nobis cumque sequi atque aliquid totam vero illo. 
+Architecto libero animi repudiandae tenetur nisi doloribus iure dolores laudantium, consequatur recusandae. 
+Laboriosam fuga cumque, asperiores nulla fugiat quos culpa voluptatibus libero velit, qui neque dolores recusandae! Quam modi omnis voluptatum alias dolorem, velit quidem animi placeat nihil neque impedit beatae, optio eius ab necessitatibus nulla vel fugiat hic adipisci. 
+Nulla repudiandae labore recusandae. Ullam unde odio magnam deleniti sequi officiis eum expedita cumque, quaerat earum eos aspernatur illum perspiciatis! Laboriosam nulla cupiditate ut animi aspernatur itaque earum expedita impedit blanditiis velit sunt quos ipsam quibusdam cum libero aut fugiat rem illo debitis deserunt vero, fuga culpa accusantium! 
+Quo, impedit est deleniti tempore amet inventore labore explicabo culpa esse quia animi odio doloremque autem aliquam vitae libero ab provident nam eius incidunt facilis? Tempore mollitia amet natus itaque, maiores perspiciatis iste temporibus odit saepe iure repudiandae aspernatur corrupti magni est ipsa. 
+Quae iure, id, dolorum quas harum, fugiat debitis delectus tenetur eligendi quis cupiditate atque. Quasi natus soluta a, laboriosam nesciunt fugiat excepturi eos ab nulla beatae molestiae cumque enim magnam autem doloribus ex odio, incidunt laborum! 
+Odit corrupti adipisci consequuntur unde laudantium eos quod delectus aspernatur et animi nemo suscipit, enim voluptas quo repudiandae voluptate reprehenderit, incidunt iusto itaque ipsam perspiciatis esse. 
+At exercitationem nam doloribus debitis cupiditate amet, quam distinctio beatae repudiandae quibusdam cum dicta ad a molestias, aut impedit sed eum qui necessitatibus sunt reiciendis ducimus porro asperiores. 
+Id optio et dolorem, dolores sunt aperiam harum delectus a, excepturi animi voluptatibus, cupiditate enim officia tempore assumenda? Quos, aspernatur eligendi, veniam commodi quam, nihil sunt consequatur deserunt eos esse rem pariatur saepe est natus nemo velit iusto voluptates! 
+Amet labore exercitationem quas consequatur voluptatum inventore, magni repudiandae similique, aspernatur iure sint nostrum nemo.
+
+ # fluentui_system_icons: ^1.1.177
+  # email_validator: ^2.1.1
+  # flutter_bloc: ^8.1.1
+  # equatable: ^2.0.3
+  # 
+  # cloud_firestore: 3.4.5
+  # firebase_auth: 3.6.4
+  # firebase_auth_desktop: 1.0.2
+  # firebase_core: 1.21.0
+  # firebase_database: 9.1.2
+  # firebase_storage: 10.3.6
+   # image_picker: ^0.8.5+3
+  # intl: ^0.17.0
+  # uuid: ^3.0.6
+  # 
+  # flutter_speed_dial: ^6.0.0
+  # package_info_plus: ^1.4.2
+  # syncfusion_flutter_charts: ^20.2.44 
+  # syncfusion_flutter_gauges: ^20.2.44 
+
+  // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBZDi_46aKSFg5qOdvCRMqBPc2my5C9VVw",
+  authDomain: "council-connext.firebaseapp.com",
+  databaseURL: "https://council-connext-default-rtdb.firebaseio.com",
+  projectId: "council-connext",
+  storageBucket: "council-connext.appspot.com",
+  messagingSenderId: "394209916267",
+  appId: "1:394209916267:web:ce334c410821bdb7b9082e",
+  measurementId: "G-92L5BMTV03"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
